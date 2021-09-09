@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #d4ebf6;
+  color: #142123;
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+
+    img {
+      width: 6%;
+      height: auto;
+    }
+
+    .text-center {
+      align-items: center;
+      justify-content: center;
+
+      h1 {
+        text-transform: uppercase;
+        text-align: center;
+      }
+
+      h3 {
+        text-transform: uppercase;
+        text-align: center;
+      }
+    }
+  }
+}
