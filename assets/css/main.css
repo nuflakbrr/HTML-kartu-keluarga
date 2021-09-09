@@ -19,8 +19,9 @@ body .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -28,7 +29,7 @@ body .container {
 }
 
 body .container img {
-  width: 6%;
+  width: 5%;
   height: auto;
 }
 
@@ -49,5 +50,18 @@ body .container .text-center h1 {
 body .container .text-center h3 {
   text-transform: uppercase;
   text-align: center;
+}
+
+body .container-table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 70px;
 }
 /*# sourceMappingURL=main.css.map */
