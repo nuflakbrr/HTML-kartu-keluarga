@@ -1,6 +1,6 @@
 # nuflakbrr.github.io/HTML-kartu-keluarga
 
-Create Family Card for submission exercises SMK Telkom Malang .
+Create Family Card for submission exercises SMK Telkom Malang.
 
 ## Authors
 
