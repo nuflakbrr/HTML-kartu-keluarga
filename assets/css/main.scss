@@ -40,10 +40,34 @@ body {
     }
   }
 
-  .container-table {
+  .container-address {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    h4 {
+      font-weight: normal;
+    }
+  }
+
+  .dark {
+    background-color: #dddddd;
+  }
+
+  .lower {
+    margin-bottom: 20px;
+  }
+
+  .random,
+  thead,
+  th,
+  tr,
+  td {
     justify-content: center;
     align-items: center;
-    margin-top: 5em;
+    border: 1px solid black;
+    border-collapse: collapse;
   }
 }

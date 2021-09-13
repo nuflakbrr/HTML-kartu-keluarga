@@ -52,16 +52,43 @@ body .container .text-center h3 {
   text-align: center;
 }
 
-body .container-table {
+body .container-address {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+body .container-address h4 {
+  font-weight: normal;
+}
+
+body .dark {
+  background-color: #dddddd;
+}
+
+body .lower {
+  margin-bottom: 20px;
+}
+
+body .random,
+body thead,
+body th,
+body tr,
+body td {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 5em;
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 /*# sourceMappingURL=main.css.map */
